@@ -218,14 +218,12 @@
 </template>
 
 <script>
-const project = "https://github.com/CareyWang/sub-web";
+const project = "https://github.com/github3444/sub-web";
 const remoteConfigSample =
-  "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/config/example_external_config.ini";
-const gayhubRelease = "https://github.com/tindy2013/subconverter/releases";
-const defaultBackend = "https://api.wcc.best/sub?";
-const shortUrlBackend = "https://api.suo.yt/short";
-const configUploadBackend = "https://api.wcc.best/config/upload";
-const tgBotLink = "https://t.me/CareyWong_bot";
+  "https://raw.githubusercontent.com/github3444/subconverter/master/base/config/example_external_config.ini";
+const gayhubRelease = "https://github.com/github3444/subconverter/releases";
+const defaultBackend = "https://127.0.0.1/sub?";
+const configUploadBackend = "https://127.0.0.1/config/upload";
 
 export default {
   data() {
@@ -366,7 +364,6 @@ export default {
       dialogUploadConfigVisible: false,
       uploadConfig: "",
       uploadPassword: "",
-      myBot: tgBotLink,
       sampleConfig: remoteConfigSample
     };
   },

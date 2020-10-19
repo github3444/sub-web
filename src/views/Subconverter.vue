@@ -222,7 +222,7 @@ const project = "https://github.com/github3444/sub-web";
 const remoteConfigSample =
   "https://raw.githubusercontent.com/github3444/subconverter/master/base/config/example_external_config.ini";
 const gayhubRelease = "https://github.com/github3444/subconverter/releases";
-const defaultBackend = "https://127.0.0.1/sub?";
+const defaultBackend = "https://dy.urgentcare.icu/sub?";
 const configUploadBackend = "https://127.0.0.1/config/upload";
 
 export default {
@@ -249,7 +249,7 @@ export default {
           ssr: "ssr",
           ssd: "ssd"
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://dy.urgentcare.icu/sub?" }],
         remoteConfig: [
           {
             label: "universal",
